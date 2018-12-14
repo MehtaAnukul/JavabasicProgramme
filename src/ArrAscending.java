@@ -6,7 +6,7 @@ public class ArrAscending {
     public static void main(String args[])
     {
 
-        int i,j,n=5;
+        int i,j,n=5,temp =0 ;
         int a[] = new int[n];
 
         a[0] = 10;
@@ -23,8 +23,9 @@ public class ArrAscending {
         for (i = 0; i < n; i++) {
             for (j = i + 1; j < n; j++) {
                 if (a[i] > a[j]) {
+                    temp = a[i];
                     a[i] = a[j];
-                    a[j] = a[i];
+                    a[j] = temp;
                 }
             }
         }

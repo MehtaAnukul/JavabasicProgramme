@@ -1,7 +1,7 @@
 /**
  * Created by Anukul-PC on 17-01-2018.
  */
-public class startriangle {
+public class Triangle {
     public static void main(String args[]) {
         int i, j, k;
         for (i = 1; i <= 5; i++) {

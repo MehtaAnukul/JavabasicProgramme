@@ -1,7 +1,7 @@
 /**
  * Created by Anukul-PC on 17-01-2018.
  */
-public class R_Right_L_triangle {
+public class Reverse_Right_L_triangle {
     public static void main(String arg[])
     {
         int i,j,k;

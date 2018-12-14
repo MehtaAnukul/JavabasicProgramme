@@ -30,14 +30,15 @@ public class Mtask1 {
                     System.out.println("");
                     System.out.println("1.sum");
                     System.out.println("2.sub");
-                    System.out.println("13.mul");
-                    System.out.println("14.div");
-                    System.out.println("15.mod");
-                    System.out.println("16.Exit");
+                    System.out.println("3.mul");
+                    System.out.println("4.div");
+                    System.out.println("5.mod");
+                    System.out.println("6.Exit");
                     System.out.println("");
                     System.out.println("Enter your choice:");
                     n = s.nextInt();
                     switch (n) {
+
                         case 1:
                             ans = a + b;
                             System.out.println("\nAddition:" + ans);

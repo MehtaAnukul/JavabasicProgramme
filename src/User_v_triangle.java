@@ -18,7 +18,7 @@ public class User_v_triangle {
             }
             while(k!=(2*i-1))
             {
-                System.out.print("* ");
+                System.out.print("*");
                 k++;
             }
             k=0;

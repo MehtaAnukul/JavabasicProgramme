@@ -1,7 +1,7 @@
 /**
  * Created by Anukul-PC on 04-02-2018.
  */
-public class test {
+public class TriangleNumAndStar {
     public static void main(String args[]) {
         //int a;
         for (int i = 1; i <= 5; i++) {

@@ -2,19 +2,19 @@
  * Created by Anukul-PC on 03-02-2018.
  */
 //import java.util.Scanner;
-public class ArrStrPrintCharNum {
+public class ArrStrCountCharNum {
     public static void main(String args[])
     {
         String s = "Anukul12345";
         count(s);
     }
-    public static void count(String x)
+    public static void count(String s)
     {
-        char ch[] = x.toCharArray();
+        char ch[] = s.toCharArray();
         int letter = 0;
         int num = 0;
 
-        for(int i=0;i<x.length();i++)
+        for(int i=0;i<s.length();i++)
 
         {
             if(Character.isLetter(ch[i]))

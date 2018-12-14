@@ -9,6 +9,7 @@ public class ArrayBasic {
         a[1] = 20;
         a[3] = 20;
         a[5] = 20;
+        a[6] = 0;
         // a[7] = 20;
 //        a[9] = 20;
 //
@@ -18,7 +19,6 @@ public class ArrayBasic {
             if (a[i] != 0) {
                 System.out.println("a[" + i + "]:\t" + a[i]);
             }
-
 
         }
 

@@ -15,7 +15,7 @@ public class ArraySum {
         int sum=0;
         for(int i=0;i<a.length;i++)
         {
-            sum = a[i] + sum;
+            sum = sum + a[i];
 
         }
         System.out.println(sum);

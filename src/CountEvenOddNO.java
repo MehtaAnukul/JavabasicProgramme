@@ -10,8 +10,10 @@ public class CountEvenOddNO {
         for (int i = 0; i < 20; i++) {
             if (i % 2 == 0) {
                 evenCount++;
+                //System.out.println(i);
             } else {
                 oddCount++;
+                System.out.println(i);
             }
         }
         System.out.println("odd COUNT " + oddCount);

@@ -1,7 +1,7 @@
 /**
  * Created by Anukul-PC on 17-01-2018.
  */
-public class RL_Triangle {
+public class Reverse_L_Triangle {
     /**
      * Created by Anukul-PC on 17-01-2018.
      */

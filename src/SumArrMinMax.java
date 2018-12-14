@@ -4,7 +4,7 @@
 public class SumArrMinMax {
     public static void main(String args[])
     {
-        int array[] = {10,20,30,40,50,10};
+        int array[] = {20,5,30,100,50,10};
         int sum=0;
 
         for(int i=0;i<array.length;i++)
