@@ -3,7 +3,7 @@
  */
 public class ArrStrCheckPalindrome {
     public static void main(String args[]) {
-        int i, length;
+        int i;
         String rev = "";
         String str[] = {"abc", "madam", "sak", "kkk"};
         for (i = 0; i < str.length; i++) {
@@ -12,38 +12,30 @@ public class ArrStrCheckPalindrome {
 
         for (i = 0; i < str.length; i++) {
 
-            length = str[i].length();
+            int length = str[i].length();
             System.out.println(length);
 
+        }
+
+        for (i = 0; i < str.length; i++) {
+
+            String subStr = str[i];
+            int length = subStr.length();
+
             for (int j = length - 1; j >= 0; j--) {
-
-                rev = rev + str[i].charAt(i);
+                rev = rev + subStr.charAt(j);
             }
 
-            if (str[i].equals(rev)) {
+            if (subStr.equals(rev)) {
+                System.out.println(subStr + " is a palindrom ");
+            } else {
+                System.out.println(subStr + " is not a palindrome");
 
-                System.out.println(str + " is a palindrome");
             }
-            else {
-                System.out.println(str + "is not a palindrome");
-            }
+            rev = "";
         }
-
-
-      /* for(i=length-1; i>=0; i--)
-       {
-           rev = rev + str[i].charAt(i);
-       }
-
-        if(str[i].equals(rev))
-        {
-            System.out.println(str+ " is a palindrome");
-        }
-        else
-        {
-            System.out.println(str+ "is not a palindrome");
-        }
-*/
-
     }
 }
+
+
+

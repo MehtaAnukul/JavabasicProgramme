@@ -8,5 +8,4 @@ public class FirstJavaClass {
         System.out.println("Hello World");
     }
 
-
 }
